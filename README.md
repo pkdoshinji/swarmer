@@ -4,7 +4,7 @@
 
 Swarmer launches and maintains a random swarm of decoy servers. These "will-o'-the-wisp" servers jump around continuously over a given portnumber space at regular intervals; they are intended to confuse and mislead network scanners (such as nmap).
 
-![](READimage.png)
+![](READimage.png=10x10)
 
 
 ## Usage example
