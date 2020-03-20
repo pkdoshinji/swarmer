@@ -4,9 +4,7 @@
 
 Swarmer launches and maintains a random swarm of decoy servers. These "will-o'-the-wisp" servers jump around continuously over a given portnumber space at regular intervals; they are intended to confuse and mislead network scanners (such as nmap).
 
-![](READimage.png=100x100)
-
-
+<img src="READimage.png" alt="example" width="600" height="400" />
 ## Usage example
 
 Running the starter.py on the command line instantiates a server swarm:
@@ -17,7 +15,9 @@ The -o ("occupied") and -n ("number") switches can be used to indicate ports tha
 
 > ./starter -o -n 3
 
-![](Usage.png) 
+<img src="Usage.png" alt="usage" width="600" height="400" />
+
+
 
 
 ## Meta
