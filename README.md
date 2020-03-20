@@ -9,11 +9,11 @@ Swarmer launches and maintains a random swarm of decoy servers. These "will-o'-t
 
 Running the starter.py on the command line instantiates a server swarm:
 
-> ./starter
+> ./starter.py
 
 The -o ("occupied") and -n ("number") switches can be used to indicate ports that are already in use and to launch multiple server swarms with distinct parameters. Using either of these switches will prompt the tool to solicit user input:
 
-> ./starter -o -n 3
+> ./starter.py -o -n 3
 
 <img src="Usage.png" alt="usage" width="600" height="400" />
 
