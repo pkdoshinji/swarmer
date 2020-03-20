@@ -39,7 +39,7 @@ def main():
     # Command line options (-o,-n) with argparse module:
     parser = argparse.ArgumentParser()
     parser.add_argument("-o", "--occupied", action="store_true", help="occupied ports that should not be used")
-    parser.add_argument("-n", "--number", type=int, help="number of swarms to launch")
+    parser.add_argument("-n", "--number", type=int, default=1, help="number of swarms to launch")
     args = parser.parse_args()
 
     # Set variables with command-line inputs
@@ -49,6 +49,8 @@ def main():
     # Get port numbers of occupied ports
     if occupied:
         occupied_list = occupied_ports()
+    else:
+        occupied_list = []
 
     # Instantiate Swarm object
     s = Swarm(occupied_list)
